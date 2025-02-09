@@ -1,0 +1,42 @@
+.delivery-achievement{
+    padding: 5rem 10rem 5rem 10rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 5.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.delivery-achieve{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15.5rem;
+    height: 10rem;
+    border-radius: 4px;
+}
+.delivery-achieve img{
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 1.5rem;
+}
+.delivery-achieve h6{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.delivery-achieve p{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    letter-spacing: 0%;
+}
+@media (max-width:1200px){
+    .delivery-achievement{
+        padding: 3rem ;
+    }
+    .delivery-achieve{
+        width: 10rem;
+        height: 7rem;
+    }
+}

@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw; 
+    color: white;   
+    background-color: black;
+}
+.footer-content{
+    width: 100vw;
+    display: flex;
+    padding: 6rem 7rem 1rem 7rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-content h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    text-align: start;
+}
+.footer-content h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 24px;
+    text-align: start;
+}
+.footer-content p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 1rem;
+    text-align: start;
+}

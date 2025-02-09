@@ -1,0 +1,105 @@
+.detail{
+    padding: 5rem 7rem 5rem 7rem;
+}
+.cam{
+    width: 7rem;
+    height: 6rem;
+    max-width: auto;
+}
+.detail-image{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1.5rem;
+}
+.detail-component{
+    /* flex-wrap: wrap; */
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.kim{
+    width: 32rem;
+    height: 24rem;
+    max-width: 40vw;
+    max-height: 40vh;
+}
+.word-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.word-text p{
+    border: 1px solid black;
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dove{
+    display: flex;
+}
+.dove img{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 4px;
+}
+.dove p{
+    width: 5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.sell{
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+.sell button{
+    width: 10.3rem;
+    max-width: 7vw;
+    height: 2.5rem;
+    color: white;
+    background-color: #db4444;
+    border-radius: 4px;
+}
+.man{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.man img{
+    width: 2rem;
+    height: 2rem;
+}
+.free{
+    border: 2px solid rgb(217, 207, 207);
+}
+.free-top{
+    display: flex;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 0.5rem;
+    gap: 1rem;
+}
+.free-top img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.best-component{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}

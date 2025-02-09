@@ -1,0 +1,39 @@
+.vouch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vouch-content{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    padding: 3rem 7rem 10rem 7rem;
+    /* background-color: rebeccapurple; */
+}
+.voucher-menu{
+    display: flex;
+    /* align-items: center; */
+    /* background-color: rebeccapurple; */
+    list-style-type: none;
+    flex-direction: column;
+    width: 279px;
+    height: 450px;
+}
+.voucher-list{
+    border-right: 1px solid rgb(215, 209, 209);;
+}
+.voucher-list ul li{
+    padding: 0px 35px;
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.voucher-list ul li a{
+    text-decoration: none;
+}
+@media (max-width:1200px){
+    .vouch-content{
+        padding: 2rem;
+    }
+}

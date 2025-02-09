@@ -1,0 +1,57 @@
+
+.account{
+    backdrop-filter: blur(10px);
+    position: absolute;
+    margin-top: 8rem;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.account-component{
+    width: max(15vw, 200px);
+    background-color: rgba(12, 11, 11, 0.707);
+    /* color: #80808080;
+    background-color: white; */
+    display: flex;
+    margin-right: 7rem;
+    flex-direction: column;
+    /* gap: 25px; */
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+}
+.account-component Link{
+    text-decoration: none;
+}
+.account-component img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+.account-component .when{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 0.4rem;
+    text-decoration: none;
+}
+.account-component p{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.remove{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.remove P{
+    cursor: pointer;
+    color: white;
+    font-size: larger;
+}

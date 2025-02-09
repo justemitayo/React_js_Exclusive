@@ -1,0 +1,19 @@
+.best{
+    padding: 5rem 7rem 5rem 7rem;
+}
+.best-component{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+@media (max-width:1200px){
+    .best{
+        padding: 2rem;
+    }
+    .best-component{
+        gap: 0.5rem;
+    }
+}

@@ -1,0 +1,83 @@
+.sign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+.sign-content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    padding: 3rem 7rem 7rem 0rem;
+    flex-wrap: wrap;
+    /* background-color: rebeccapurple; */
+}
+.sign-content h3{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 1.5rem;
+}   
+.sign-content p{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.sign-inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.sign-inputs input{
+    width: 23rem;
+    height: 2rem;
+    background-color: white;
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
+    font-size: 1rem;
+}
+.sign-max{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.sign-max button{
+    border-radius: 4px;
+    background-color: white;
+    height: 3.5rem;
+    border: 1px solid black;
+    font-size: 1rem;
+    /* text-align: center; */
+}
+.sign-mini{
+    display: flex;
+    justify-content: space-between;
+}
+.log{
+    width: 143px;
+    height: 56px;
+    background-color: #db4444;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.forget{
+    width: 141px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #db4444;
+}
+
+@media (max-width:1200px){
+    .sign-content{
+        padding: 2rem;
+    }
+    .sign-component{
+    
+    }
+    .pic{
+        width: 500px;
+        height: 420px;
+    }
+}

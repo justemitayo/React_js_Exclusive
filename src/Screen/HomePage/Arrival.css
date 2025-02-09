@@ -1,0 +1,89 @@
+.arrival{
+    padding: 5rem 7rem 5rem 7rem;
+}
+.play{
+    background-image: url('../../Assets/plays.png');
+    background-size: 35.6rem 37.5rem;
+    width: 35.6rem;
+    height: 37.5rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0rem 0rem 1.5rem 1.5rem;
+}
+.hats{
+    background-image: url('../../Assets/hats.png');
+    background-size: 35.6rem 17.8rem;
+    width: 35.6rem;
+    height: 17.8rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    padding: 0rem 0rem 1.5rem 1.5rem;
+}
+.speaker{
+    background-image: url('../../Assets/speaker.png');
+    background-size: 16.875rem 17.8rem;
+    width: 16.875rem;
+    height: 17.8rem;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0rem 0rem 1.5rem 1.5rem;
+}
+.perfume{
+    background-image: url('../../Assets/perfume.png');
+    background-size: 16.875rem 17.8rem;
+    width: 16.875rem;
+    height: 17.8rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0rem 0rem 1.5rem 1.5rem;
+    background-color: black
+}
+.arrival-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+.arrival-upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.arrival-lower{
+    display: flex;
+    justify-content:space-between ;
+}
+.arrival-content h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.arrival-content p{
+    font-size: 1rem;
+    color: #fafafa;
+    margin-bottom: 0.75rem;
+    letter-spacing: 0;
+    width: 15.125rem;
+}
+.arrival-content button{
+    background: none;
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 1rem;
+    cursor: pointer;
+}

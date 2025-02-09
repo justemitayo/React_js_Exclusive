@@ -1,0 +1,35 @@
+.flash{
+    padding: 5rem 7rem 5rem 7rem;
+}
+.flash-timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.flash-timer p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: max(1vw, 12px);
+}
+.flash-timer span{
+    font-size: max(1vw, 2rem);
+}
+.flash-head h3{
+    font-weight: 500;
+    font-size: max(1vw, 2rem);
+    line-height: 3rem;
+    letter-spacing: 4%;
+    text-align: end;
+}
+.slick-slide div{
+    margin: 0px 12px;
+    color: black;
+}
+@media (max-width:1200px){
+    .flash{
+        padding: 2rem;
+    }
+}

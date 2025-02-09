@@ -1,0 +1,63 @@
+.enhance{
+    padding: 5rem 7rem 5rem 7rem;
+    width: 100%;
+}
+.enhance-component{
+    background-image: url('../../Assets/jbl.png');
+    background-size: 55% 85%;
+    background-color: black;
+    /* height: 31.25rem; */
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 7rem 4rem;
+    color: white;
+}
+.enhance-component h6{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #00ff66;
+    margin-bottom: 2rem;
+}
+.enhance-component h2{
+    font-size: 3rem;
+    letter-spacing: 4%;
+    line-height: 3.75rem;
+    margin-bottom: 2rem;
+}
+.enhance-content{
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+.enhance-content span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+.enhance-content p{
+    font-size: 11px;
+}
+button{
+    border: none;
+    color: white;
+    background-color: #00ff66;
+    width: max(14vw, 100px);
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 3.75rem;
+    font-size: 1rem
+}
+@media (max-width:1200px){
+    .enhance{
+        padding: 2rem;
+    }
+}

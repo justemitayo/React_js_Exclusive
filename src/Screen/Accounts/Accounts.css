@@ -1,0 +1,90 @@
+.accounts{
+    padding: 5rem 7rem 7rem 7rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: max(5vw, 30px);
+}
+.accounts-content{
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 0.5rem;
+}
+.accounts-content p{
+    margin-bottom: 0.5rem;
+    padding-left: 3rem;
+    font-size: max(1vw, 16px);
+    color: gray;
+    cursor: pointer;
+}
+.accounts-content h3{
+    margin-bottom: 1rem;
+    font-size: max(1vw, 18px);
+    font-weight: 500;
+
+}
+.accounts-component{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 2.5rem 5rem;
+    gap: 1.5rem;
+}
+.accounts-component h3{
+    font-size: max(2vw, 20px);
+    font-weight: 500;
+    color: #db4444;
+}
+.accounts-component form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.accounts-component label{
+    font-size: max(1vw, 16px);
+}
+.accounts-component input{
+    font-size: max(1vw, 12px);
+    background-color: #f5f5f5; 
+    cursor: pointer;
+}
+.top-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom-name input{
+    margin-bottom: 1rem;
+    height: 3.5rem;
+    border-radius: 4px;
+    padding: 1rem;
+    font-size: max(1vw, 12px);
+}
+.minor{
+    border: none;
+    color: white;
+    background-color: #db4444;
+    width: max(11vw, 100px);
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 3rem;
+    font-size: max(1vw, 12px);
+}
+.mini{
+    background-color: white;
+    font-size: max(1vw, 16px);
+}
+.top-name input{
+    width: max(23vw, 200px);
+    padding: 10px;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    height: 3.5rem;
+    font-size: 1rem;
+}
+.top-name{
+    gap: 0.3rem;
+}
