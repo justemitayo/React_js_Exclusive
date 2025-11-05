@@ -32,7 +32,7 @@ const Navbar = ({setShowAccount}:props) => {
                 <Link to='/'> <li onClickCapture={showNavbar} onClick={() => {setShowAccount(false)}}>Home</li></Link>  
                 <Link to='/contact'><li onClick={showNavbar }>Contact</li></Link> 
                 <Link to='/about'><li onClick={showNavbar}>About</li></Link>
-                <Link to ='/sign'><li onClick={showNavbar}>Sign Up</li></Link>
+                <Link to ='/sign'><li onClick={showNavbar}>Sign</li></Link>
                 <button className='nav-btn nav-close-btn' onClick={showNavbar}> X</button>
             </nav>
             <form className='navbar-form'>
